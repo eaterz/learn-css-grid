@@ -1,3 +1,31 @@
-.h1{
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
-};
+
+.blocks{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.blocks div{
+    height: 200px;
+    width: 200px;
+}
+
+.blocks-1 {
+    background-color: rgb(255, 121, 43);
+}
+.blocks-2 {
+    background-color: rgb(147, 237, 13);
+}
+.blocks-3 {
+    background-color: rgb(0, 156, 246);
+}
+.blocks-4 {
+    background-color: rgb(241, 202, 5);
+}
