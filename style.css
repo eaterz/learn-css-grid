@@ -1,9 +1,9 @@
-body {
-display: flex;
-justify-content: center;
-align-items: center;
-}
 
+.gej{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .blocks{
     display: grid;
@@ -31,4 +31,9 @@ align-items: center;
 }
 .blocks-4 {
     background-color: rgb(241, 202, 5);
+}
+h1 {
+   font-family: Georgia, serif;
+    font-size: 5rem;
+    text-align: center;
 }
