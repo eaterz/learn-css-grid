@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px black;
+    row-gap: color black;
 }
 
 .blocks{
@@ -17,10 +19,11 @@
     
     height: 200px;
     width: 200px;
+    
 }
 
 .blocks-1 {
-    
+
     background-color: rgb(255, 121, 43);
 }
 .blocks-2 {
