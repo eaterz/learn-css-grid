@@ -1,10 +1,7 @@
 
 .gej{
     display: flex;
-    justify-content: center;
     align-items: center;
-    border: 2px black;
-    row-gap: color black;
 }
 
 .blocks{
@@ -12,12 +9,15 @@
     place-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    row-gap:50px ;
+    column-gap:100px
+    
     
 }
 
 .blocks div{
     
-    height: 200px;
+    height: 300px;
     width: 200px;
     
 }
@@ -25,6 +25,7 @@
 .blocks-1 {
 
     background-color: rgb(255, 121, 43);
+color: black;
 }
 .blocks-2 {
     background-color: rgb(147, 237, 13);
