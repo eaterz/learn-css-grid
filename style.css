@@ -10,14 +10,17 @@ align-items: center;
     place-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    
 }
 
 .blocks div{
+    
     height: 200px;
     width: 200px;
 }
 
 .blocks-1 {
+    
     background-color: rgb(255, 121, 43);
 }
 .blocks-2 {
