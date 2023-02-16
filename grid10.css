@@ -1,0 +1,59 @@
+
+.gej{
+    display:flex;
+    align-items: center;
+    
+}
+
+.blocks{
+    display: grid;
+    grid-template-columns: repeat(5, 25px);
+    row-gap: 25px;
+    column-gap: 100px;
+    width: 600px;
+    background-color: #40fef4;
+    
+}
+
+.blocks div{
+    
+    height: 100px;
+    width: 100px;
+    
+}
+
+.blocks-1 {
+
+    background-color: #00b3ff;
+
+}
+.blocks-2 {
+    background-color: #00b3ff;
+}
+.blocks-3 {
+    background-color: #00b3ff;
+}
+.blocks-4 {
+    background-color: #00b3ff;
+}
+.blocks-5 {
+
+    background-color: #00b3ff;
+
+}
+.blocks-6 {
+    background-color: #0051ff;
+}
+.blocks-7 {
+    background-color: #0051ff;
+}
+.blocks-8 {
+    background-color: #0051ff;
+}
+.blocks-9 {
+
+    background-color: #0051ff;
+color: black;}
+.blocks-10 {
+    background-color: #0051ff;
+}
