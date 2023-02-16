@@ -1,4 +1,6 @@
-
+body{
+    background-color: pink;
+}
 .gej{
     display: flex;
     align-items: center;
